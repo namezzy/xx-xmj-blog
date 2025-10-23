@@ -25,9 +25,58 @@ export default function Home() {
       </header>
 
       <main>
-        {/* Blog Section */}
+        {/* Contact Section - 放在最上面 */}
         <section>
-          <h2>Blog</h2>
+          <h2>Contact</h2>
+          <ul>
+            <li>
+              <a href="https://x.com/Levi" target="_blank" rel="noopener noreferrer">
+                @Levi
+              </a>
+              {' '}on X
+            </li>
+            <li>
+              <a href="https://github.com/namezzy" target="_blank" rel="noopener noreferrer">
+                @Levi
+              </a>
+              {' '}on Github
+            </li>
+            <li>
+              <a href="mailto:xmj@xx-xmj.com">
+                xmj@xx-xmj.com
+              </a>
+              {' '}via email
+            </li>
+          </ul>
+        </section>
+
+        {/* Interests Section */}
+        <section>
+          <h2>Interests</h2>
+          <p>
+            I love to build
+          </p>
+        </section>
+
+        {/* Projects Section */}
+        <section>
+          <h2>Projects</h2>
+          <p>
+            Coming soon...
+          </p>
+        </section>
+
+        {/* Interesting Links Section */}
+        <section>
+          <h2>Interesting Links</h2>
+          <p>
+            Coming soon...
+          </p>
+        </section>
+
+        {/* Writing and Talks Section */}
+        <section>
+          <h2>Writing and talks</h2>
           <div>
             {blogPosts.map((post) => (
               <div key={post.slug} style={{ marginBottom: '16px' }}>
@@ -46,30 +95,6 @@ export default function Home() {
               </div>
             ))}
           </div>
-        </section>
-
-        {/* About Section */}
-        <section>
-          <h2>About</h2>
-          <p>
-            享受当下，无限进步
-          </p>
-          <p>
-            Limitless progress
-          </p>
-        </section>
-
-        {/* Contact Section */}
-        <section>
-          <h2>Contact</h2>
-          <ul>
-            <li>
-              <a href="mailto:xmj@xx-xmj.com">
-                xmj@xx-xmj.com
-              </a>
-              {' '}via email
-            </li>
-          </ul>
         </section>
       </main>
     </div>
