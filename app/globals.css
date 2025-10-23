@@ -71,3 +71,76 @@ p {
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
 }
 
+/* 响应式设计 - 平板设备 */
+@media (max-width: 1024px) {
+  .content-paper {
+    max-width: calc(100% - 80px);
+    margin: 10px 40px;
+    padding: 30px 40px;
+  }
+  
+  h1 {
+    font-size: 28px;
+  }
+  
+  h2 {
+    font-size: 18px;
+  }
+}
+
+/* 响应式设计 - 手机设备 */
+@media (max-width: 768px) {
+  body {
+    font-size: 15px;
+  }
+  
+  .content-paper {
+    max-width: calc(100% - 40px);
+    margin: 10px 20px;
+    padding: 20px 24px;
+  }
+  
+  h1 {
+    font-size: 24px;
+    margin: 0 0 6px 0;
+  }
+  
+  h2 {
+    font-size: 16px;
+    margin: 24px 0 12px 0;
+  }
+  
+  h3 {
+    font-size: 15px;
+    margin: 20px 0 8px 0;
+  }
+}
+
+/* 响应式设计 - 小屏手机 */
+@media (max-width: 480px) {
+  body {
+    font-size: 14px;
+  }
+  
+  .content-paper {
+    max-width: calc(100% - 20px);
+    margin: 5px 10px;
+    padding: 16px 20px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+  }
+  
+  h1 {
+    font-size: 20px;
+  }
+  
+  h2 {
+    font-size: 15px;
+    margin: 20px 0 10px 0;
+  }
+  
+  h3 {
+    font-size: 14px;
+    margin: 16px 0 8px 0;
+  }
+}
+
