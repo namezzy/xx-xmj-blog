@@ -64,8 +64,8 @@ p {
 
 .content-paper {
   background-color: #ffffff;
-  max-width: calc(100% - 570px);
-  margin: 10px 285px;
+  max-width: calc(100% - 164.584px);
+  margin: 10px 82.292px;
   padding: 40px 60px;
   min-height: calc(100vh - 20px);
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
