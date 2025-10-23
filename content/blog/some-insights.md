@@ -1,6 +1,6 @@
 ---
 title: "Some Insights"
-date: "2024-01-25"
+date: "2025-10-23"
 excerpt: "关于个人与集体、当下与未来的一些思考。"
 ---
 

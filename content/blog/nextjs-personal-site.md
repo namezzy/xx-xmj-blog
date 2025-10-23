@@ -1,6 +1,6 @@
 ---
 title: "如何使用 Next.js 构建个人网站"
-date: "2024-01-20"
+date: "2025-10-23"
 excerpt: "使用 Next.js 14 和 App Router 构建现代化的个人网站。"
 ---
 
