@@ -71,6 +71,12 @@ p {
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
 }
 
+.avatar-image {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+}
+
 /* 响应式设计 - 平板设备 */
 @media (max-width: 1024px) {
   .content-paper {
@@ -85,6 +91,11 @@ p {
   
   h2 {
     font-size: 18px;
+  }
+  
+  .avatar-image {
+    width: 70px;
+    height: 70px;
   }
 }
 
@@ -114,6 +125,11 @@ p {
     font-size: 15px;
     margin: 20px 0 8px 0;
   }
+  
+  .avatar-image {
+    width: 60px;
+    height: 60px;
+  }
 }
 
 /* 响应式设计 - 小屏手机 */
@@ -141,6 +157,11 @@ p {
   h3 {
     font-size: 14px;
     margin: 16px 0 8px 0;
+  }
+  
+  .avatar-image {
+    width: 50px;
+    height: 50px;
   }
 }
 

@@ -1,12 +1,27 @@
 import { getAllPosts } from "@/lib/posts";
+import Image from "next/image";
 
 export default function Home() {
   const blogPosts = getAllPosts();
 
   return (
     <div className="content-paper">
-      <header>
+      <header style={{ position: 'relative' }}>
         <h1>Levi</h1>
+        <div style={{
+          position: 'absolute',
+          top: '0',
+          right: '0',
+        }}>
+          <Image
+            src="https://avatars.githubusercontent.com/u/26276606?s=400&u=cc7fa5f60e8399504797485ba86ed8894e003964&v=4"
+            alt="Levi's Avatar"
+            width={80}
+            height={80}
+            className="avatar-image"
+            priority
+          />
+        </div>
       </header>
 
       <main>
