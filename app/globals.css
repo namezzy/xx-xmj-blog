@@ -64,9 +64,12 @@ p {
 
 .content-paper {
   background-color: #ffffff;
-  max-width: 700px;
-  margin: 10px auto;
-  padding: 40px 80px;
+  max-width: 600px;
+  margin-left: 100px;
+  margin-right: auto;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  padding: 40px 60px;
   min-height: calc(100vh - 20px);
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
 }
@@ -80,8 +83,9 @@ p {
 /* 响应式设计 - 平板设备 */
 @media (max-width: 1024px) {
   .content-paper {
-    max-width: 90%;
-    margin: 10px auto;
+    max-width: 85%;
+    margin-left: 50px;
+    margin-right: auto;
     padding: 30px 40px;
   }
   
@@ -106,8 +110,9 @@ p {
   }
   
   .content-paper {
-    max-width: 95%;
-    margin: 10px auto;
+    max-width: 90%;
+    margin-left: 20px;
+    margin-right: 20px;
     padding: 20px 24px;
   }
   
@@ -139,8 +144,9 @@ p {
   }
   
   .content-paper {
-    max-width: 98%;
-    margin: 5px auto;
+    max-width: calc(100% - 20px);
+    margin-left: 10px;
+    margin-right: 10px;
     padding: 16px 20px;
     box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
   }
