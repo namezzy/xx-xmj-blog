@@ -7,7 +7,7 @@ export default function Home() {
   return (
     <div className="content-paper">
       <header style={{ position: 'relative' }}>
-        <h1>Levi</h1>
+        <h2>Levi</h2>
         <div style={{
           position: 'absolute',
           top: '0',
@@ -27,7 +27,7 @@ export default function Home() {
       <main>
         {/* Contact Section - 放在最上面 */}
         <section>
-          <h2>Contact</h2>
+          <h3>Contact</h3>
           <ul>
             <li>
               <a href="https://x.com/Levi" target="_blank" rel="noopener noreferrer">
@@ -52,7 +52,7 @@ export default function Home() {
 
         {/* Interests Section */}
         <section>
-          <h2>Interests</h2>
+          <h3>Interests</h3>
           <p>
             I love to build
           </p>
@@ -60,7 +60,7 @@ export default function Home() {
 
         {/* Projects Section */}
         <section>
-          <h2>Projects</h2>
+          <h3>Projects</h3>
           <ul>
             <li>
               <a href="https://github.com/namezzy/xx-xmj-blog" target="_blank" rel="noopener noreferrer">
@@ -85,7 +85,7 @@ export default function Home() {
 
         {/* Interesting Links Section */}
         <section>
-          <h2>Interesting Links</h2>
+          <h3>Interesting Links</h3>
           <ul>
             <li>
               <a href="https://gregbrockman.com" target="_blank" rel="noopener noreferrer">
@@ -122,7 +122,7 @@ export default function Home() {
 
         {/* Writing and Talks Section */}
         <section>
-          <h2>Writing and talks</h2>
+          <h3>Writing and talks</h3>
           <div>
             {blogPosts.map((post) => (
               <div key={post.slug} style={{ marginBottom: '16px' }}>
