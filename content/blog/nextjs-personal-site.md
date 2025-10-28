@@ -1,7 +1,7 @@
 ---
-title: "如何使用 Next.js 构建个人网站"
+title: "How to Build a Personal Website with Next.js"
 date: "2025-10-23"
-excerpt: "使用 Next.js 14 和 App Router 构建现代化的个人网站。"
+excerpt: "Build a Modern Personal Website with Next.js 14 and App Router"
 ---
 
 使用 Next.js 构建个人网站是一个很好的选择，它提供了强大的功能和优秀的开发体验。
