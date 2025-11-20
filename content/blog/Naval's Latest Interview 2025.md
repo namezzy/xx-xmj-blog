@@ -1,7 +1,7 @@
 ---
 title: "Naval's Latest Interview 2025"
 date: "2025-11-20"
-excerpt: ""
+excerpt: "1"
 ---
 
 
